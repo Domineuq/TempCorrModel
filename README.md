@@ -37,7 +37,7 @@ measurements taken during scanning.
   - Summary table with correlation statistics (**CSV**)  
   - Standalone color-coded region legend  
 
-## Customization
+## Customisation
 - Adjustable input/output paths  
 - Flexible grouping of brain structures  
 - Configurable plot style and font sizes  
