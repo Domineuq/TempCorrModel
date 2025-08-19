@@ -42,6 +42,14 @@ measurements taken during scanning.
 - Flexible grouping of brain structures  
 - Configurable plot style and font sizes  
 
+# Usage
++ Download the python script
++ Define the input paths where you have located your NIfTI files and excel containing the temperature data
++ Define the output paths where you want to save the summary table with correlation statistics and the plots
+
+# MIT License
+
+
 ---
 
 
