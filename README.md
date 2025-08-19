@@ -6,7 +6,12 @@ The fitted linear models (intercept a and slope b) can be used to correct postmo
 Created by the [Forensic Medicine and Imaging Research Group](https://dbe.unibas.ch/en/research/imaging-modelling-diagnosis/forensic-medicine-imaging-research-group/).
 If you use it, please cite our publication: tbd
 
-# Requirements
+# Pipeline
+This script processes MRI-derived metrics (**FA, MD, T1, T2, T2\***)
+across deep gray matter regions and correlates them with forehead temperature
+measurements taken during scanning.  
+
+## Requirements
 + os
 + pandas
 + numpy
@@ -16,10 +21,6 @@ If you use it, please cite our publication: tbd
 + glob
 + matplotlib.lines (Line2D)
 + matplotlib.patches (mpatches)
-
-This script processes MRI-derived metrics (**FA, MD, T1, T2, T2\***)
-across deep gray matter regions and correlates them with forehead temperature
-measurements taken during scanning.  
 
 ## Features
 - **Input**  
