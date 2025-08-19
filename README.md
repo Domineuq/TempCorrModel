@@ -10,8 +10,7 @@ measurements taken during scanning.
   - Excel file with corresponding forehead temperatures  
 
 - **Processing**  
-  - Cleans and merges MRI parameter data (with corrected T1 support)  
-  - Excludes unwanted regions (e.g., *Accumbens*)  
+  - Merges MRI parameter data  
   - Maps MRI metrics to relevant temperature values  
   - Computes Pearson correlations, linear regressions, R², slopes, and confidence intervals  
 
@@ -27,4 +26,5 @@ measurements taken during scanning.
 
 ---
 
-This workflow provides an automated pipeline for exploring relationships between physiological temperature and MRI signal characteristics in deep gray matter structures.
+This workflow provides an automated pipeline for exploring relationships between forehead temperature and MRI parameters in deep gray matter substructures.
+The fitted linear models (intercept a and slope b) can be used to correct postmortem MRI parameters for temperature.
