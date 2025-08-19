@@ -1,4 +1,21 @@
-# MRI Temperature Correlation Analysis
+# MRI Temperature Correlation Analysis and Correction Model
+
+This workflow provides an automated pipeline for exploring relationships between forehead temperature and MRI parameters in deep gray matter substructures.
+The fitted linear models (intercept a and slope b) can be used to correct postmortem MRI parameters for temperature.
+
+Created by the [Forensic Medicine and Imaging Research Group](https://dbe.unibas.ch/en/research/imaging-modelling-diagnosis/forensic-medicine-imaging-research-group/).
+If you use it, please cite our publication: tbd
+
+# Requirements
++ os
++ pandas
++ numpy
++ matplotlib.pyplot
++ seaborn
++ scipy.stats (linregress, pearsonr, t)
++ glob
++ matplotlib.lines (Line2D)
++ matplotlib.patches (mpatches)
 
 This script processes MRI-derived metrics (**FA, MD, T1, T2, T2\***)
 across deep gray matter regions and correlates them with forehead temperature
@@ -26,5 +43,4 @@ measurements taken during scanning.
 
 ---
 
-This workflow provides an automated pipeline for exploring relationships between forehead temperature and MRI parameters in deep gray matter substructures.
-The fitted linear models (intercept a and slope b) can be used to correct postmortem MRI parameters for temperature.
+
