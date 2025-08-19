@@ -1,4 +1,3 @@
-# TempCorrModel
 # MRI Temperature Correlation Analysis
 
 This script processes MRI-derived metrics (**FA, MD, T1, T2, T2\***)
